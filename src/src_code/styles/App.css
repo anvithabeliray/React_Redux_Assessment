@@ -1,0 +1,131 @@
+.component{
+  box-sizing: border-box;
+  width: 1000px;
+  height: 500px;
+  margin: 50px auto;
+  text-align: center;
+  position: relative;
+  border-radius: 20px;
+  border-style: solid;
+  background-color:rgb(37, 121, 136);
+}
+.dropdown{
+  text-align: center;
+  background-color:white;
+ /* color: black; */
+  height: 350px;
+  padding : 20px auto;
+  border-radius: 20px;
+  border-style: double;
+  margin: 0px 100px auto;
+  padding-top: 20px;
+}
+.h1{
+  color: rgb(206, 211, 219);
+  font-weight: bolder;
+}
+.dropdown select {
+  padding :10px;
+  margin: 10px auto;
+  position: relative;
+  font-weight: bolder;
+}
+.dropdown label{
+    position :relative;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+/* == todo  == */
+
+body {
+  background:white;
+}
+form {
+  display: inline;
+}
+.to-do-app {
+  box-sizing: border-box;
+  width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  position: relative;
+  border-radius: 5px;
+}
+.header h1 {
+  background: rgb(15, 14, 14);
+  padding: 7px;
+  border-radius: 10px 10px;
+  font-size: 36px;
+  margin: 0;
+  color: white;
+  font-weight: lighter;
+  margin-bottom:10px ;
+}
+.create-new {
+ 
+  background-color: rgb(72, 194, 184);
+  height: 100px;
+  width: 100%;
+  border-radius: 10px 10px;
+}
+.create-new button{
+  background: rgb(23, 23, 124);
+    box-sizing: border-box;  
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 2px 2px;
+    border-radius: 10px;
+    position: relative;
+}
+.create-new input {
+    box-sizing: border-box;
+    width: 75%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.items-list {
+  background:rgb(72, 194, 184);
+  border-radius: 10px;
+}
+.to-do-item {
+  padding: 10px 0 10px 0;
+  margin: 1px 0 1px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  color:black;
+  font-weight:bolder;
+ 
+}
+.name {
+  margin-left: 10px;
+}
+.name  input {
+    width: 350px;
+    color: #333;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+.actions {
+    margin-right: 10px;
+}
+.actions button {
+      padding: 7px;
+      border-radius: 5px;
+      border: none;
+      margin-right: 10px;
+      background: rgb(23, 23, 124);
+      color: white;
+      font-weight: lighter;
+}
+ol{
+  font-size: 30px;
+  background-color: white;
+  color: rgb(89, 179, 179);
+}
